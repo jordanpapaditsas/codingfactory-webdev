@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 3</title>
+    <!-- Style για την σελίδα μου -->
+    <style>
+        table, th, td {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <p>Ένας απλός πίνακας</p>
+    <table>
+        <tr>
+            <td>Μάθημα</td>
+            <td>Καθηγητής</td>
+            <td>Μέρα/Ώρα</td>
+        </tr>
+        <tr>
+            <td>Εισαγωγή στον Προγραμματισμό</td>
+            <td>Όνομα 1 Επίθετο 1</td>
+            <td>Δευτέρα 09:00</td>
+        </tr>
+        <tr>
+            <td>Δομές Δεδομένων</td>
+            <td>Όνομα 2 Επίθετο 2</td>
+            <td>Δευτέρα 13:00</td>
+        </tr>
+    </table>
+
+    <p>Πίνακας με header και caption</p>
+    
+    <table>
+        <caption>Ωρολόγιο Πρόγραμμα</caption>
+        <tr>
+            <th>Μάθημα</th>
+            <th>Καθηγητής</th>
+            <th>Μέρα/Ώρα</th>
+        </tr>
+        <tr>
+            <td>Εισαγωγή στον Προγραμματισμό</td>
+            <td>Όνομα 1 Επίθετο 1</td>
+            <td>Δευτέρα 09:00</td>
+
+        </tr>
+    </table>
+
+    <p>Πίνακας με thead, tbody, tfoot</p>
+    <table id="timetable">
+        <thead>
+            <tr>
+                <th>Μάθημα</th>
+                <th>Καθηγητής</th>
+                <th>Μέρα/Ώρα</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Δομές Δεδομένων</td>
+                <td>Όνομα 2 Επίθετο 2</td>
+                <td>Δευτέρα 13:00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Μαθήματα Προγραμματισμόυ</td>
+                <td>Τμήμα Πληροφορικής</td>
+                <td>Αίθουσα 3</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Πίνακας με colgroup και col</p>
+    <table>
+        <colgroup>
+            <col style="background-color: red;">
+            <col style="background-color: yellow;">
+            <col style="background-color: aqua;">
+        </colgroup>
+        <tr>
+            <th>Μάθημα</th>
+            <th>Καθηγητής</th>
+            <th>Μέρα/Ώρα</th>
+        </tr>
+        <tr>
+            <td>Εισαγωγή στον Προγραμματισμό</td>
+            <td>Όνομα 1, Επίθετο 1</td>
+            <td>Δευτέρα 09:00</td>
+        </tr>
+    </table>
+
+    <p>Πίνακας με rowspan και colspan</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Μάθημα</th>
+                <th>Καθηγητής</th>
+                <th>Μέρα/Ώρα</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">Μαθήματα Προγραμματισμού</td>
+            </tr> 
+            <tr>
+                <td>Εισαγωγή στον Προγραμματισμό</td>
+                <td>Όνομα 1, Επίθετο 1</td>
+                <td rowspan="2">Δευτέρα 09:00</td>
+            </tr>
+            <tr>
+                <td>Δομές Δεδομένων</td>
+                <td>Όνομα 1, Επίθετο 1</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

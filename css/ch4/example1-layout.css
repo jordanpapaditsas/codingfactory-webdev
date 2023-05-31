@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  height: 120px;
+  border: 1px solid black;
+  background-color: rgb(143, 182, 206);
+}
+
+.aside {
+  height: 150px;
+  float: left;
+  width: 30%;
+  border: 1px solid black;
+  background-color: rgb(203, 148, 157);
+}
+
+.main {
+  height: 200px;
+  float: left;
+  width: 70%;
+  border: 1px solid black;
+  background-color: rgb(143, 143, 199);
+}
+
+.footer {
+  height: 200px;
+  clear: both;
+  border: 1px solid black;
+  background-color: rgb(178, 240, 118);
+}

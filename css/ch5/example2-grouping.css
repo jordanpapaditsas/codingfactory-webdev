@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #762124;
+}
+
+.logo > img {
+  height: 100px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.nav {
+  width: 500px;
+}
+
+.nav > ul {
+  height: 100px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

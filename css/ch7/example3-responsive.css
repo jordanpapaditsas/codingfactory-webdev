@@ -1,0 +1,27 @@
+/* Lardge */
+@media (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* Extra Large */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  body {
+    background-color: brown;
+  }
+}
+
+/* xx-Large */
+@media (min-width: 1401px) {
+  body {
+    background-color: aquamarine;
+  }
+}
+
+/* x-small, small, medium */ 
+@media (max-width: 992px) {
+  body {
+    background-color: cornflowerblue;
+  }
+}

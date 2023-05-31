@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form name="myform" method="post" action="example.php">
+      <div>
+            <input type="radio" name="gender" value="male" id="male" checked>
+            <label for="male">Άντρας</label><br>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Γυναίκα</label><br>
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">Άλλο</label>
+      </div>
+      <div>
+        <input type="checkbox" name="vehicle1" value="bike" id="bicycle">
+        <label for="bicycle">Ποδήλατο</label><br>
+        <input type="checkbox" name="vehicle2" value="motorcycle" id="motorc">
+        <label for="motorc">Μηχανή</label><br>
+        <input type="checkbox" name="vehicle3" value="car" id="car">
+        <label for="car">Αμάξι</label>
+      </div>
+      <div>
+        <label for="nationality">Υπηκοότητα</label>
+        <select name="nationality" id="nationality">
+            <option value="" disabled selected hidden>Επιλέξτε Υπηκοότητα</option>
+            <option value="greek">Ελλάδα</option>
+            <option value="english">Αγγλία</option>
+            <option value="spanish">Ισπανία</option>
+        </select>
+      </div>
+      <div>
+        <fieldset style="width: 450px">
+          <legend>Προσωπικά Στοιχεία</legend>
+          <label for="firstname">Όνομα:</label>
+          <input type="text" name="firstname" id="firstname"><br>
+          <label for="lastname">Επίθετο</label>
+          <input type="text"name="lastname" id="lastname"><br>
+          <div>
+            <label for="work">Χρόνια Προυπηρεσίας</label>
+            <input type="number" name="work-experience" id="work-experience">
+          </div>
+          <label for="birthday">Χρονολογία γέννησης</label>
+          <input type="date" name="birthday" id="birthday"><br>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email"><br>
+          <div>
+            <label for="age">Ηλικία</label>
+            <input type="range" name="age" id="age" min="20" max="40" oninput="this.nextElementSibling.value=this.value">
+            <output>30</output> 
+        </div>
+        </fieldset>
+      </div>
+      <div>
+        <label for="message">Γράψτε το μήνυμα σας:</label><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Γράψτε το όνομα σας"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Υποβολή">
+        <input type="reset" value="Επαναφορά">
+      </div>
+    </form>    
+</body>
+</html>

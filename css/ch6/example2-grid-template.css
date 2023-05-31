@@ -1,0 +1,30 @@
+
+.container-grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  margin-top: 20px;
+  background-color: aqua;
+}
+
+.container-grid-2 {
+  margin-top: 20px;
+  background-color: brown;
+  color: white;
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 60px 120px;
+}
+
+.container-grid-3 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  grid-template-rows: 100px;
+  /* grid-auto-rows: 60px; */
+  grid-auto-rows: auto;
+}
+
+div[class^="grid"] {
+  border: 1px solid red;
+}

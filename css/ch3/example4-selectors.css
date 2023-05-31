@@ -1,0 +1,21 @@
+h2[id], p[id] {
+  background-color: aquamarine;
+}
+
+a[href="#"] {
+  background-color: burlywood;
+}
+
+*[class^="info"] {
+  background-color: red;
+  border: 1px solid black;
+}
+
+*[class*="text"] {
+  color: blue;
+}
+
+*[class$="title"] {
+  font-style: italic;
+}
+

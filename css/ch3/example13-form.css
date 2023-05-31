@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+  background-color: cornflowerblue;
+  width: 30%;
+  margin: 10px auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.middle {
+  background-color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
+
+.rounded-5 {
+  border-radius: 5px;
+}
+
+.rounded-25 {
+  border-radius: 25px;
+}
+
+.inner {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gap-bottom {
+  margin-bottom: 20px;
+}
+
+.gap-top {
+  margin-top: 20px;
+}
+
+.login-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #8c8d8d;
+}
+
+.form-input {
+  width: 80%;
+  height: 48px;
+  background-color: #fafaf4;
+  border-radius: 5px;
+  border-width: 0;
+  padding-left: 10px;
+}
+
+.form-btn, .form-reset {
+  width: 80%;
+  height: 48px;
+  border-radius: 15px;
+  border: 1.5px solid black;
+  background-color: #87ceed;
+}
+
+.form-btn:hover, .form-reset:hover {
+   opacity: 0.5;
+}
+
+.rest-link {
+  color: black;
+}
+
+.text-light, .account-link {
+  color: white;
+}
+
+.account-link:hover {
+  background-color: black;
+}
+
+input:focus {
+  outline: 1px solid red;
+}

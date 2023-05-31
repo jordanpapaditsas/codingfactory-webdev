@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #762124;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+}
+
+.logo > img {
+  width: auto;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.nav {
+  float: right;
+  width: 500px;
+}
+
+.nav > ul {
+  /* background-color: aqua; */
+  height: 100px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a:hover {
+  background-color: rgb(22, 152, 109);
+}
+
+nav a:active {
+  background-color: rgb(172, 172, 231);
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 15px 10px;
+}
+
+.home-img {
+  background-color: aqua;
+  width: 100%;
+  height: 400px;
+  background-image: url(/img/tep-aueb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: table; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  color: #762124;
+  font-size: 40px;
+  font-weight: 600;
+  background-color: aqua;
+  /* display: table-cell;
+  vertical-align: middle;
+  text-align: center; */
+  width: 50%;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+}
+
+.footer {
+  display: flex;
+  height: 120px;
+  background-color: #762124;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+}

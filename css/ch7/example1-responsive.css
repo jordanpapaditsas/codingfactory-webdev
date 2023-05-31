@@ -1,0 +1,19 @@
+/* body {
+  background-color: red;
+  color: blue;
+} */
+
+@media print {
+  body {
+    background-color: aqua;
+    color: rgb(11, 105, 117);
+  }
+}
+
+@media all {
+  body {
+    background-color: beige;
+    color: blue;
+  }
+}
+

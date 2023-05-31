@@ -1,0 +1,16 @@
+.main {
+  height: 500px;
+  width: 60%;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main > img {
+  float: left;
+  width: 40%;
+  height: auto;
+  margin-right: 20px;
+  /* margin-left: 20px; */
+}

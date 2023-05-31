@@ -1,0 +1,38 @@
+* {
+    margin: 10px 2px;
+}
+
+.container > h2:first-of-type {
+    font-size: 24px;
+    color: red;
+}
+
+.container > p:first-of-type {
+    color: blue;
+}
+
+ul > :first-child {
+    font-weight: bold;
+}
+
+ul >:nth-child(even) {
+    color: red;
+    font-weight: bold;
+}
+
+ul >:nth-child(odd) {
+    color: blue;
+}
+
+.special {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}

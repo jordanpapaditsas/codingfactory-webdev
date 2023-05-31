@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example 6 Responsive</title>
+  <link rel="stylesheet" href="../css/ch7/example6-responsive.css">
+</head>
+
+<body>
+  <header class="header">
+    <!-- Menu -->
+    <nav class="navbar">
+      <div class="logo">Logo</div>
+      <!-- Hamburger Icon -->
+      <a href="#" class="hamburger-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <article>
+      <h1>Responsive Topbar</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde nulla repellendus magni exercitationem? Ducimus omnis voluptatem quidem provident numquam amet nobis illo hic est! Ad dolorem impedit similique eaque.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illo ipsam vitae magnam provident blanditiis quaerat sint pariatur, unde eius, in dignissimos facilis eaque aperiam deserunt dicta at esse culpa?</p>
+    </article>
+  </main>
+
+  <script>
+    const toggleButton = document.querySelector('.hamburger-menu');
+    const navbarLinks = document.querySelector('.navbar-links');
+
+    toggleButton.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active');
+      // console.log("Hello");
+      // alert("Hello");
+    });
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,39 @@
+img {
+  width: 800px;
+  height: auto;
+}
+
+ul > li {
+  color: red;
+  border: 1px solid black;
+}
+
+ul a:link {
+  color: green;
+}
+
+ul > li:first-child {
+  background-color: aquamarine;
+  color: rgb(76, 0, 255);
+}
+
+ul > li:not(:first-child) {
+  background-color: antiquewhite;
+  color: rgb(101, 160, 14);
+}
+
+img ~ p {
+  background-color: green;
+}
+
+h1 + p {
+  color: white;
+}
+
+a::before {
+  content: '\1F604';
+}
+
+a::after {
+  content: '\1F603';
+}

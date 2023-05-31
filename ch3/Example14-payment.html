@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="../css/ch3/Example14-payment.css">
+  
+</head>
+<body>
+  <div class="container">
+    <form>
+      <h1>Φόρμα Πληρωμής</h1>
+      <p>
+        Τα υποχρεωτικά πεδία ακολουθούνται από 
+        <strong><abbr title="required">*</abbr></strong>
+      </p>
+
+      <div aria-labelledby="personal-details">
+        <h2 id="personal-details">Προσωπικά στοιχεία</h2>
+        <fieldset>
+          <legend>Title</legend>
+          <div>
+            <input type="radio" name="title" id="titleMr" value="Mr">
+            <label for="titleMr">Mr.</label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" name="title" value="Mrs">
+              Mrs.
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" name="title" value="Dr">
+              Dr
+            </label>
+          </div>
+        </fieldset>
+        <div>
+          <label>
+            <span>Name:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="text" name="username">
+        </div>
+        <div>
+          <label>
+            <span>Email:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="email" name="useremail">
+        </div>
+        <div>
+          <label for="pwd">
+            <span>Password:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="password" name="password" id="pwd">
+        </div>
+      </div>
+
+      <div aria-labelledby="payment-info">
+        <h2 id="payment-info">Πληροφορίες Πληρωμής</h2>
+
+        <div>
+          <label for="card">
+            <span>Card type:</span>
+          </label>
+          <select class="card" name="usercard" id="card">
+            <option disabled selected hidden>Επιλέξτε κάρτα</option>
+            <option value="visa">Visa</option>
+            <option value="mc">Mastercard</option>
+            <option value="amexpress">American Express</option>
+          </select>
+        </div>
+        <div>
+          <label>
+            <span>Card number</span>
+            <strong><abbr title="rel">*</abbr></strong>
+          </label>
+          <input type="text" name="cardnumber" id="number">
+        </div>
+        <div>
+          <label for="expiration">
+          <span>Expiration date:</span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="text" name="expiration" id="expiration" placeholder="MM/YY">
+        </div>
+      </div>
+
+      <div class="form-btn">
+        <input type="submit" value="Προχωρήστε στην Πληρωμή">
+      </div>
+
+    </form>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,33 @@
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto; 
+  grid-template-areas: 
+  "header header header header"
+  "main main . sidebar"
+  "footer footer footer footer";
+}
+
+div[class^="grid"] {
+  border: 1px solid red;
+}
+
+.grid-item-1 {
+  grid-area: header;
+  background-color: aqua;
+}
+
+.grid-item-2 {
+  grid-area: main;
+  background-color: blue;
+}
+
+.grid-item-3 {
+  grid-area: sidebar;
+  background-color: brown;
+}
+
+.grid-item-4 {
+  grid-area: footer;
+  background-color: pink;
+}
