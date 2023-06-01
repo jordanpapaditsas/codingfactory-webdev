@@ -73,3 +73,13 @@ footer {
   font-size: 1.2rem;
   letter-spacing: 5px;
 }
+
+/* Styling for page: "Information" */
+.information {
+  margin-top: 8rem;
+}
+
+/* Styling for page: "How to reach to the island" */
+.directions {
+  margin-top: 8rem;
+}
