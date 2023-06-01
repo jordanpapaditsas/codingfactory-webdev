@@ -1,0 +1,75 @@
+.bg-dark {
+  background-color: #006994 !important;
+}
+
+.navbar {
+  border-bottom: 2px solid #333333;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.dropdown-item:hover {
+  color: #006994;
+}
+
+header {
+  background-image: url(../../img/MicrosoftTeams-image\ \(2\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50%;
+}
+
+.main {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.main p {
+  text-align: justify;
+}
+
+.line {
+  background-color: #006994;
+}
+
+.album {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card {
+  border: none;
+}
+
+.card-title a {
+  text-decoration: none;
+}
+
+.card-img {
+  height: 250px;
+  border-radius: 8%;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #222525;
+}
+
+.social a {
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+}
