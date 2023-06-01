@@ -25,7 +25,7 @@
 }
 
 header {
-  background-image: url(../../img/MicrosoftTeams-image\ \(2\).png);
+  background-image: url(../images/MicrosoftTeams-image\ \(2\).png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -72,6 +72,10 @@ footer {
   color: white;
   font-size: 1.2rem;
   letter-spacing: 5px;
+}
+
+.social a:hover {
+  color: #006994;
 }
 
 /* Styling for page: "Information" */
