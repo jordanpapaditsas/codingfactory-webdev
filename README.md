@@ -1,6 +1,6 @@
 # Coding Factory-Web Development
 ## Description  
-Full-Stack Web Development course,  based on Tech stack: 
+Full-Stack Web Development course,  based on the following Technologies: 
 <ul>
   <li>JavaScript</li>
   <li>HTML5</li>
