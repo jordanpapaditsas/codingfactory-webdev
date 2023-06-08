@@ -32,3 +32,8 @@ Various tools and IDEs that used and taught throughout the curriculum:
   <li>Gimp</li>
   <li>Git</li>
   <li>Figma</li>
+ </ul>
+    
+## Demo
+Live preview Corfu-project: [https://jordanpapaditsas.github.io/codingfactory-webdev/](https://jordanpapaditsas.github.io/codingfactory-webdev/)
+
