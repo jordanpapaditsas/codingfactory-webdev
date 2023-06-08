@@ -1,0 +1,19 @@
+{
+  "name": "codingfactory-webdevelopment",
+  "version": "1.0.0",
+  "description": "Full-Stack Web Development course,  based on the following Technologies: \r <ul>\r   <li>JavaScript</li>\r   <li>HTML5</li>\r   <li>CSS3</li>\r   <li>Angular</li>\r   <li>Node.js</li>\r   <li>MongoDB</li>\r </ul>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
