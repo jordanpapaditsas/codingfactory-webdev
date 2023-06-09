@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex 17</title>
+</head>
+<body>
+  
+
+  <script>
+    function myFunction(parameter1, parameter2) {
+      document.write(`parameter1 = ${parameter1}, parameter2 = ${parameter2}, "<br>"`);
+    }
+
+    myFunction("Kostas");
+
+    function myFunction2(parameter1, parameter2 = "lalakis") {
+      document.write(`parameter1 = ${parameter1}, parameter2 = ${parameter2}`);
+    }
+
+    myFunction2("Kostas");
+    document.write("<br>");
+    myFunction2("Kostas", "Kostakis");
+    document.write("<br>");
+
+    myFunction2("Kostas", "Kostakis");
+
+    function myFunction2(parameter1, parameter2 = "lalakis", parameter3) {  //Overloaded function (not good to use)  --- JS read always the last same name function that we declared!
+      document.write(`parameter1 = ${parameter1}, parameter2 = ${parameter2}, parameter3 = ${parameter3}`);
+    }
+
+    myFunction2("Kostas", "Kostakis", "lalakis");
+  </script>
+</body>
+</html>

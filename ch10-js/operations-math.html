@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex 4</title>
+</head>
+<body>
+
+
+  
+  <script>
+    const EUROS_PER_100EURO = 100;
+    let euro = 210;
+    let euros100;
+    let remainingEuros;
+
+    euros100 = Math.floor(euro / EUROS_PER_100EURO);
+    remainingEuros = Math.floor(euro % EUROS_PER_100EURO);
+    
+    document.write(`${euro} euro = ${euros100} * 100euros & ${remainingEuros} euros `);
+  </script>
+</body>
+</html>
