@@ -1,6 +1,7 @@
 # [Coding Factory](https://codingfactory.aueb.gr/)
 ## Description  
-Full-Stack Software Development bootcamp,  based on the following Technologies: 
+Coding Factory is a Software Engineering bootcamp, and in this field of the bootcamp  
+ we are learning Web Development, based on the following Technologies: 
 <ul>
   <li>JavaScript</li>
   <li>HTML5</li>
