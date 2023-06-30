@@ -1,6 +1,6 @@
 # [Coding Factory](https://codingfactory.aueb.gr/)
 ## Description  
-Full-Stack Software Development course,  based on the following Technologies: 
+Full-Stack Software Development bootcamp,  based on the following Technologies: 
 <ul>
   <li>JavaScript</li>
   <li>HTML5</li>
