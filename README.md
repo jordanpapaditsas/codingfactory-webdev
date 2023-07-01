@@ -24,6 +24,8 @@ Chapters covered:
   <li>Introduction to Bootstrap</li>
   <li>Design Thinking - UX/UI - Agile/Scrum</li>
   <li>Introduction to JavaScript</li>
+  <li>JavaScript Data Types</li>
+  <li>JavaScript Objects, JSON strings & Functions</li>
 </ol>  
 
 ## Tools & IDEs 
