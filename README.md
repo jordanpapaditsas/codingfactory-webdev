@@ -1,6 +1,6 @@
 # [Coding Factory](https://codingfactory.aueb.gr/)
 ## Description  
-Coding Factory is a Software Engineering bootcamp, and in this field of the bootcamp  
+Coding Factory is a Software Engineering bootcamp, and in the current field of the bootcamp 
  we are learning Web Development, based on the following Technologies: 
 <ul>
   <li>JavaScript</li>
@@ -28,8 +28,8 @@ Chapters covered:
   <li>JavaScript Objects, JSON strings & Functions</li>
 </ol>  
 
-## Tools & IDEs 
-Various tools and IDEs that used and taught throughout the curriculum: 
+## Tools 
+Various tools that used and taught throughout the curriculum: 
 <ul>
   <li>Visual Studio Code</li>
   <li>Gimp</li>
