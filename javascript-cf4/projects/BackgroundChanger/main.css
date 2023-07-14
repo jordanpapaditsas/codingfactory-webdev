@@ -1,0 +1,7 @@
+main > div {
+    height: calc(100vh);
+}
+
+.text-sm {
+    font-size: 1rem;
+}
